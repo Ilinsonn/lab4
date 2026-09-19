@@ -15,7 +15,10 @@
                 <artifactId>maven-war-plugin</artifactId>
                 <version>3.3.2</version>
                 <configuration>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                    <url>http://172.17.0.1:9999/manager/text</url>
+                    <path>/petclinic</path>
+                    <username>admin</username>
+                    <password>123</password>
                 </configuration>
             </plugin>
             <!-- -->
